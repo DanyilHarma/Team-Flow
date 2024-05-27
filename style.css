@@ -9,7 +9,7 @@ body {
     padding-right: 130px;
     padding-left: 130px;
     background: linear-gradient(107deg, #4a00e0 63%, #fafaff 50%);
-    height: 750px;
+    height: 800px;
 }
 
 .wrapper-menu-header {
@@ -33,6 +33,15 @@ body {
     font-size: 20px;
     line-height: 127%;
     letter-spacing: 0.02em;
+}
+
+.list-header ul a li {
+    display: flex;
+    align-items: center;
+}
+
+.list-header ul a li svg {
+    margin-left: 10px;
 }
 
 .list-header a:hover {
@@ -83,8 +92,8 @@ body {
     margin-top: 80px;
     display: flex;
     width: 100%;
-    max-width: 1415px;
-    gap: 10%;
+    max-width: 1480px;
+    gap: 14%;
 }
 
 .info-header-left {
@@ -96,6 +105,7 @@ body {
 .info-header-right {
     position: relative;
     display: flex;
+    flex-direction: column;
 }
 
 .purple-circle {
@@ -112,7 +122,7 @@ body {
     position: absolute;
     width: 80px;
     border-radius: 10px;
-    top: 53%;
+    top: 45%;
     border: 3px solid #3adad9;
 }
 
@@ -127,8 +137,8 @@ body {
 
 .cusor-image {
     position: absolute;
-    top: 40%;
-    left: 85%;
+    top: 35%;
+    left: 90%;
 }
 
 .cursor-img {
@@ -137,7 +147,7 @@ body {
 
 .orange-triangle {
     position: absolute;
-    top: 78%;
+    top: 65%;
     left: 80%;
 }
 
@@ -160,7 +170,7 @@ body {
     font-size: 60px;
     line-height: 127%;
     letter-spacing: 0.02em;
-    max-width: 645px;
+    max-width: 680px;
 }
 
 .info-paragraf {
@@ -197,4 +207,134 @@ body {
 .info-btn-header a:hover {
     color: #292929;
     background-color: #fcdb6d;
+}
+
+.img-header-girl {
+    position: relative;
+    height: 340px;
+}
+
+.girl-header-info {
+    position: relative;
+}
+
+.img-header-girl .girl-header {
+    position: relative;
+    top: -94%;
+    left: -2%;
+}
+
+.dashed-circle {
+    clip-path: circle(50%);
+    overflow: hidden;
+}
+
+.lucy {
+    position: absolute;
+    top: 65%;
+    left: -10%;
+    background-color: #fafafa;
+    border-radius: 40px;
+    padding: 30px;
+    width: 100%;
+    max-width: 200px;
+    text-align: -webkit-center;
+    height: 60px;
+    line-height: 1px;
+}
+
+.comment-girl {
+    position: absolute;
+    background-color: #fff;
+    top: 20%;
+    right: -5%;
+    box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, .09);
+    padding: 15px 10px;
+    width: 300px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.status-girl,
+.status-boy {
+    color: #fff;
+    padding: 5px;
+    width: 100%;
+    max-width: 70px;
+    text-align: center;
+    margin-left: 200px;
+    background-color: #3adad9;
+    border-radius: 10px;
+}
+
+.comment-girl .name,
+.comment-boy .name {
+    display: block;
+    font-size: 15px;
+    line-height: 127%;
+    color: #6c71a1;
+}
+
+.comment-girl .proffesion,
+.comment-boy .proffesion {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 127%;
+    color: #2b3377;
+}
+
+.comment-girl .stars-girl,
+.comment-boy .stars-boy {
+    display: block;
+    margin-left: -2px;
+    margin-top: 4px;
+}
+
+.boy-header-info {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.img-header-boy {
+    position: relative;
+}
+
+.img-header-boy .boy-header {
+    border-radius: 100%;
+    position: absolute;
+    right: 7%;
+    top: 7%;
+    box-shadow: 20px 0px 13px rgba(0, 0, 0, .09);
+}
+
+.mark-boy {
+    position: absolute;
+    top: 32%;
+    right: -10%;
+    font-weight: 600;
+    font-size: 11px;
+    color: #279e73;
+    background-color: #fafafa;
+    width: 100%;
+    max-width: 100px;
+    text-align: center;
+    border-radius: 15px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.comment-boy {
+    width: 300px;
+    box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, .09);
+    background-color: #fff;
+    padding: 15px 10px;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.status-boy {
+    background-color: #fd9b78;
 }
