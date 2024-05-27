@@ -4,6 +4,8 @@ body {
     padding: 0;
 }
 
+/* ************************HEADER******************************* */
+
 .header {
     padding-top: 50px;
     padding-right: 130px;
@@ -241,6 +243,9 @@ body {
     text-align: -webkit-center;
     height: 60px;
     line-height: 1px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #494949;
 }
 
 .comment-girl {
@@ -337,4 +342,231 @@ body {
 
 .status-boy {
     background-color: #fd9b78;
+}
+
+/* **********************PARTNERS************************** */
+
+.partners-wrapper {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 70px;
+    margin-bottom: 150px;
+}
+
+.partners-wrapper p {
+    position: relative;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 147%;
+    letter-spacing: 0.02em;
+    color: #515151;
+}
+
+.partners-wrapper p img {
+    position: absolute;
+    top: -20px;
+}
+
+.partners-img {
+    display: flex;
+    gap: 70px;
+}
+
+/* **********************POSSIBILITIES************************** */
+
+.possibilities {
+    margin-top: 100px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.possibilities h2 {
+    font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    line-height: 147%;
+    letter-spacing: 0.02em;
+    color: #565656;
+    margin-bottom: 100px;
+}
+
+.possibilities h2 span {
+    color: #FFCA1D
+}
+
+.possibibilities-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.possibibilities-img img {
+    width: 100%;
+    max-width: 102px;
+    margin-bottom: 40px;
+}
+
+.possibibilities-img p {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #585858;
+}
+
+.business,
+.financial,
+.market {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.business h4,
+.financial h4,
+.market h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 147%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2b3377;
+}
+
+/* **********************FEATURES************************** */
+
+.features {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.features h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 100px;
+    line-height: 147%;
+    letter-spacing: 0.02em;
+    color: #565656;
+}
+
+.features h2 span {
+    color: #FFCA1D
+}
+
+.content-features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-circle-img {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+    border: 2px solid #e0e0e0;
+    border-radius: 50%;
+}
+
+.middle-circle-img {
+    position: absolute;
+    top: 16%;
+    left: 17%;
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    border: 2px solid #e0e0e0;
+    border-radius: 50%;
+}
+
+.small-circle-img {
+    position: absolute;
+    top: 20%;
+    left: 19%;
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    border: 2px solid #e0e0e0;
+    border-radius: 50%;
+}
+
+.boost img {
+    margin-right: 10px;
+}
+
+.features-paragraf {
+    position: relative;
+}
+
+.features-paragraf img {
+    position: absolute;
+    top: 44%;
+    height: 2%;
+    width: 15%;
+}
+
+.features h4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 147%;
+    letter-spacing: 0.02em;
+    color: #4a4a4a;
+    margin-bottom: 40px;
+}
+
+.features p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 158%;
+    letter-spacing: 0.01em;
+    color: #575757;
+}
+
+/* *****************************BOY WITH GLASS)************************************ */
+
+.boy-with-glass {
+    background-color: #FAFAFF;
+    padding-top: 50px;
+}
+
+.boy-with-glass-content {
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boy-with-glass-paragraf {
+    position: relative;
+}
+
+.boy-with-glass-paragraf h4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 147%;
+    letter-spacing: 0.02em;
+    color: #4a4a4a;
+    margin-bottom: 40px;
+}
+
+.boy-with-glass-paragraf p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 158%;
+    letter-spacing: 0.01em;
+    color: #575757;
+}
+
+.boy-with-glass-paragraf img {
+    position: absolute;
+    top: 28%;
+    height: 2%;
+    width: 15%;
 }
