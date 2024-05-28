@@ -296,6 +296,12 @@ body {
     margin-top: 4px;
 }
 
+.arrow-orange {
+    position: absolute;
+    top: 80%;
+    right: 5%;
+}
+
 .boy-header-info {
     display: flex;
     align-items: center;
@@ -499,6 +505,136 @@ body {
 .boost img {
     margin-right: 10px;
 }
+
+
+.mia {
+    width: fit-content;
+}
+
+.mia:hover .window-mia,
+.angelina:hover .window-angelina,
+.matt:hover .window-matt,
+.stive:hover .window-stive {
+    opacity: 1;
+    visibility: visible;
+}
+
+.mia:hover,
+.angelina:hover,
+.matt:hover,
+.stive:hover {
+    width: 100%;
+}
+
+.window-mia,
+.window-angelina,
+.window-matt,
+.window-stive {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: -30%;
+    left: 15%;
+    z-index: 2;
+    padding: 15px;
+    border-radius: 10px;
+    display: table;
+    background-color: #fff;
+    box-shadow: 4px 4px 55px 0px rgba(34, 60, 80, 0.2);
+}
+
+.window-angelina {
+    top: -70%;
+    left: 10%;
+}
+
+.window-matt {
+    top: -50%;
+    left: 13%;
+}
+
+.window-stive {
+    top: -20%;
+    left: 18%;
+}
+
+.header-window {
+    display: flex;
+    gap: 150px;
+}
+
+.window-images {
+    width: 51px;
+}
+
+.info-window-main {
+    display: flex;
+    gap: 48px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.info-window {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-window {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #3b4eb2;
+}
+
+.profession-window {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7f86ae;
+}
+
+.message {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3a3a3a;
+    background-color: #FFCA1D;
+    width: 100%;
+    max-width: 105px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color .3s, background-color .3s;
+}
+
+.message:hover {
+    color: #292929;
+    background-color: #fcdb6d;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.task span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #38c73e;
+}
+
+.task img {
+    display: inline;
+    width: 100%;
+    max-width: 14px;
+}
+
+
 
 .features-paragraf {
     position: relative;
