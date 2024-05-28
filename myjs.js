@@ -2,22 +2,26 @@ let elementsStyles = {
     "mia": {
         "position": "absolute",
         "top": "25%",
-        "left": "-3%"
+        "left": "-3%",
+        "border-radius": "50%"
     },
     "angelina": {
         "position": "absolute",
         "top": "37%",
-        "left": "64%"
+        "left": "64%",
+        "border-radius": "50%"
     },
     "matt": {
         "position": "absolute",
         "top": "71%",
-        "left": "26%"
+        "left": "26%",
+        "border-radius": "50%"
     },
     "stive": {
         "position": "absolute",
         "top": "43%",
-        "left": "43%"
+        "left": "43%",
+        "border-radius": "50%"
     },
     "celeste": {
         "position": "absolute",
@@ -110,6 +114,8 @@ let elementsStyles = {
     }
 };
 
+let hoverPhotos = ["mia", "angelina", "matt", "stive"];
+
 document.addEventListener("DOMContentLoaded", () => {
     for (let [className, styles] of Object.entries(elementsStyles)) {
         let element = document.querySelector(`.${className}`);
@@ -118,3 +124,4 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 });
+
