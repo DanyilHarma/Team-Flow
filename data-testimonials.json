@@ -1,0 +1,37 @@
+{
+    "Jessika": {
+        "top": "10px",
+        "left": "10px",
+        "img": "images/Ellipse (8).png"
+    },
+    "Cody": {
+        "top": "20px",
+        "left": "20px",
+        "img": "images/Ellipse (9).png"
+    },
+    "Mary": {
+        "top": "30px",
+        "left": "30px",
+        "img": "images/Ellipse (10).png"
+    },
+    "Rocky": {
+        "top": "40px",
+        "left": "40px",
+        "img": "images/Ellipse (7).png"
+    },
+    "Bob": {
+        "top": "50px",
+        "left": "50px",
+        "img": "images/Ellipse (6).png"
+    },
+    "Stacy": {
+        "top": "60px",
+        "left": "60px",
+        "img": "images/Ellipse (5).png"
+    },
+    "Alex": {
+        "top": "70px",
+        "left": "70px",
+        "img": "images/Ellipse (4).png"
+    }
+}
