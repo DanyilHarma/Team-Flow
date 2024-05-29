@@ -1234,3 +1234,34 @@ body {
     color: #292929;
     background-color: #fcdb6d;
 }
+
+/* *********************TESTIMONIALS************************** */
+
+.testimonials {
+    margin-top: 300px;
+}
+
+.testimonials h2 {
+    font-family: "Nunito Sans";
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 147%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2d2d2d;
+    margin-bottom: 50px;
+}
+
+.testimonials h2 span {
+    font-weight: 700;
+    color: #ffca1d;
+}
+
+.testimonials-map {
+    position: relative;
+}
+
+.testimonials-map img:not(.big-map) {
+    position: absolute;
+}
