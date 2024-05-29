@@ -791,3 +791,88 @@ body {
     color: #292929;
     background-color: #fcdb6d;
 }
+
+/* **********************AUTOMATION************************** */
+
+.automations {
+    margin-top: 200px;
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+    gap: 111px;
+    align-items: center;
+}
+
+.circle-dashed-automations {
+    position: relative;
+    border: 2px dashed #D7D7EB;
+    border-radius: 50%;
+    padding: 50px;
+}
+
+.girl-images-automations img {
+    border-radius: 50%;
+}
+
+.circle-not-full {
+    position: absolute;
+    z-index: 2;
+    left: 13%;
+    top: 13%;
+}
+
+.circle-rose-automation,
+.circle-blue-automation,
+.circle-orange-automation {
+    position: absolute;
+    top: 55%;
+    left: 98%;
+    width: 24px;
+    height: 24px;
+    background-color: #F3648F;
+    border-radius: 50%;
+}
+
+.circle-blue-automation {
+    top: 12%;
+    left: 11%;
+    width: 40px;
+    height: 40px;
+    background-color: #64B7F3;
+}
+
+.circle-orange-automation {
+    top: 93%;
+    left: 25%;
+    background-color: #EC7B4A;
+}
+
+.automations-paragraf {
+    position: relative;
+}
+
+.automations-paragraf img {
+    position: absolute;
+    top: 25%;
+}
+
+.automations-paragraf h4 {
+    font-family: "Nunito sans";
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 147%;
+    letter-spacing: 0.02em;
+    color: #4a4a4a;
+}
+
+.automations-paragraf p {
+    font-family: "Nunito sans";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 158%;
+    letter-spacing: 0.01em;
+    color: #575757;
+}
+
+/* **********************VISUALIZE************************** */
