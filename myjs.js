@@ -114,7 +114,6 @@ let elementsStyles = {
     }
 };
 
-let hoverPhotos = ["mia", "angelina", "matt", "stive"];
 
 document.addEventListener("DOMContentLoaded", () => {
     for (let [className, styles] of Object.entries(elementsStyles)) {
