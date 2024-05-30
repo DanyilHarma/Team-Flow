@@ -1,0 +1,67 @@
+{
+    "product": {
+        "text": [
+            "Product",
+            "Pricing",
+            "Enterprise",
+            "Partners",
+            "Affiliate",
+            "Integrations",
+            "Developers",
+            "Students",
+            "Work OS"
+        ],
+        "tag": "a",
+        "font-family": "Poppins",
+        "color": "#5c5e87",
+        "font-size": "18px",
+        "text-decoration": "none"
+    },
+    "team": {
+        "text": [
+            "About Us",
+            "Contact Us",
+            "Careers"
+        ],
+        "tag": "a",
+        "font-family": "Poppins",
+        "color": "#5c5e87",
+        "font-size": "18px",
+        "text-decoration": "none"
+    },
+    "solutions": {
+        "text": [
+            "Marketing",
+            "CRM",
+            "Software",
+            "Constructions",
+            "Creative",
+            "HR",
+            "IT",
+            "See More"
+        ],
+        "tag": "a",
+        "font-family": "Poppins",
+        "color": "#5c5e87",
+        "font-size": "18px",
+        "text-decoration": "none"
+    },
+    "resources": {
+        "text": [
+            "Knowledge",
+            "Guides",
+            "Community",
+            "Customer",
+            "Templates",
+            "Services",
+            "Video",
+            "Blog",
+            "Podcast"
+        ],
+        "tag": "a",
+        "font-family": "Poppins",
+        "color": "#5c5e87",
+        "font-size": "18px",
+        "text-decoration": "none"
+    }
+}

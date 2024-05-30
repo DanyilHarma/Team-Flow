@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error('Error loading JSON file:', error);
         });
 });
-
+////////////////////////////////////FORM SUPPORT/////////////////////////////////////////
 let submit = document.querySelector(".button-email-support").addEventListener("click", function (e) {
     e.preventDefault();
     let email = document.querySelector(".input-email");
@@ -201,3 +201,28 @@ let submit = document.querySelector(".button-email-support").addEventListener("c
         img.classList.remove("img_indent");
     }
 });
+
+////////////////////////////////////FOOTER LIST DATA/////////////////////////////////////////
+
+document.addEventListener("DOMContentLoaded", () => {
+    fetch("footer-data.json")
+        .then(response => response.json())
+        .then(data => {
+            for (info in data) {
+                if (data.hasOwnProperty(info)) {
+                    let container = document.getElementById(info);
+                    let infoData = data[info];
+                    infoData.text.forEach(item => {
+                        let a = document.createElement(infoData.tag);
+                        a.textContent = item;
+                        a.style.textDecoration = infoData["text-decoration"];
+                        a.style.color = infoData.color;
+                        a.style.fontFamily = infoData["font-family"];
+                        a.style.fontSize = infoData["font-size"];
+                        a.href = "#";
+                        container.appendChild(a);
+                    });
+                }
+            }
+        })
+})
