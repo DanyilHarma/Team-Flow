@@ -1471,3 +1471,73 @@ body {
     top: 21%;
     left: 10%;
 }
+
+/* *********************FOOTER************************** */
+
+.footer {
+    padding: 150px 130px;
+    padding-bottom: 100px;
+    display: flex;
+    gap: 135px;
+}
+
+.first-col {
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+}
+
+.first-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.strong-span {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 22px;
+    color: #2b3377;
+}
+
+.small-span {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    color: #5c5e87;
+}
+
+.society-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.society-footer img {
+    width: 100%;
+    max-width: 42px;
+}
+
+.lasts-col {
+    display: flex;
+    gap: 160px;
+}
+
+.li {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.li h5 {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 22px;
+    color: #2b3377;
+    margin-bottom: 15px;
+}
