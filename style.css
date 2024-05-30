@@ -1336,3 +1336,138 @@ body {
     text-align: center;
     color: #3c405f;
 }
+
+/* *********************EMAIL-SUPPORT************************** */
+
+.email-support {
+    display: flex;
+    background-color: #FAFAFF;
+    padding: 100px 130px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-support span:first-of-type {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 147%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #eb801d;
+}
+
+.email-support h3 {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 147%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2d3150;
+}
+
+.email-support span:last-of-type {
+    font-family: "Nunito Sans";
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 147%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2d3150;
+}
+
+.email-support .input-email {
+    font-family: "Nunito Sans";
+    padding-left: 70px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: none;
+    width: 640px;
+    height: 70px;
+    font-size: 20px;
+    box-shadow: 0 10px 20px 0 rgba(54, 58, 120, 0.1);
+    background: #fff;
+}
+
+.email-support .input-email::placeholder {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 147%;
+    letter-spacing: 0.02em;
+    color: #9092b0;
+}
+
+.email-support .input-email:focus-visible {
+    outline-color: rgba(104, 109, 241, .2);
+}
+
+.email-support form {
+    position: relative;
+}
+
+#img-support {
+    position: absolute;
+    top: 41%;
+    left: 4%;
+}
+
+.img_indent {
+    animation-name: img_indent;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.43, 0.05, 0.3, 0.87);
+}
+
+@keyframes img_indent {
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        top: 39%;
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        top: 43%;
+    }
+
+    100% {
+        top: 41%;
+    }
+}
+
+.button-email-support {
+    font-family: "Nunito Sans";
+    position: relative;
+    top: -64px;
+    left: 71%;
+    width: 100%;
+    max-width: 180px;
+    height: 58px;
+    padding-left: 25px;
+    background-color: #686DF1;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 58px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.button-email-support:hover {
+    background-color: #7b7ff3;
+}
+
+.button-email-support img {
+    position: absolute;
+    top: 21%;
+    left: 10%;
+}
