@@ -187,3 +187,17 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error('Error loading JSON file:', error);
         });
 });
+
+let submit = document.querySelector(".button-email-support").addEventListener("click", function (e) {
+    e.preventDefault();
+    let email = document.querySelector(".input-email");
+    let img = document.querySelector("#img-support");
+    img.classList.remove("img_indent");
+    void img.offsetWidth;
+    if (email.value === "") {
+        img.classList.add("img_indent");
+    } else {
+        email.value = "";
+        img.classList.remove("img_indent");
+    }
+});
