@@ -124,3 +124,66 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
+////////////////////////////////////FOR BIG MAP/////////////////////////////////////////
+
+document.addEventListener("DOMContentLoaded", () => {
+    fetch("data-testimonials.json")
+        .then(response => response.json())
+        .then(data => {
+            let container = document.querySelector(".testimonials-map");
+            let popups = document.querySelectorAll(".popup");
+            let currentIndex = 0;
+            let images = [];
+            let mouseOver = false;
+            for (person in data) {
+                if (data.hasOwnProperty(person)) {
+                    let personData = data[person];
+
+                    let img = document.createElement("img");
+                    img.src = personData.img;
+                    img.alt = personData.alt;
+                    img.style.top = personData.top;
+                    img.style.left = personData.left;
+                    container.appendChild(img);
+                    images.push(img);
+                }
+            }
+
+            images.forEach((img, index) => {
+                img.addEventListener("mouseenter", () => {
+                    mouseOver = true;
+                    hideAllPopups();
+                    showPopup(popups[index]);
+                });
+                img.addEventListener("mouseleave", () => {
+                    mouseOver = false;
+                    hideAllPopups();
+                });
+            });
+
+            function showPopup(popup) {
+                popup.style.opacity = "1";
+                popup.style.visibility = "visible";
+            };
+
+            function hideAllPopups() {
+                popups.forEach(popup => {
+                    popup.style.opacity = "0";
+                    popup.style.visibility = "hidden";
+                })
+            };
+
+            function switchPopup() {
+                if (!mouseOver) {
+                    hideAllPopups();
+                    showPopup(popups[currentIndex]);
+                    currentIndex = (currentIndex + 1) % popups.length;
+                }
+            };
+            setInterval(switchPopup, 3500);
+
+
+        }).catch(error => {
+            console.error('Error loading JSON file:', error);
+        });
+});

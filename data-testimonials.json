@@ -1,37 +1,44 @@
 {
     "Jessika": {
-        "top": "10px",
-        "left": "10px",
-        "img": "images/Ellipse (8).png"
+        "top": "81px",
+        "left": "25%",
+        "img": "images/Ellipse (8).png",
+        "alt": "Jessika"
     },
     "Cody": {
-        "top": "20px",
-        "left": "20px",
-        "img": "images/Ellipse (9).png"
+        "top": "365px",
+        "left": "18%",
+        "img": "images/Ellipse (9).png",
+        "alt": "Cody"
     },
     "Mary": {
-        "top": "30px",
-        "left": "30px",
-        "img": "images/Ellipse (10).png"
+        "top": "571px",
+        "left": "33%",
+        "img": "images/Ellipse (10).png",
+        "alt": "Mary"
     },
     "Rocky": {
-        "top": "40px",
-        "left": "40px",
-        "img": "images/Ellipse (7).png"
+        "top": "118px",
+        "left": "47%",
+        "img": "images/Ellipse (7).png",
+        "alt": "Rocky"
     },
     "Bob": {
-        "top": "50px",
-        "left": "50px",
-        "img": "images/Ellipse (6).png"
+        "top": "475px",
+        "left": "60%",
+        "img": "images/Ellipse (6).png",
+        "alt": "Bob"
     },
     "Stacy": {
-        "top": "60px",
-        "left": "60px",
-        "img": "images/Ellipse (5).png"
+        "top": "342px",
+        "left": "77%",
+        "img": "images/Ellipse (5).png",
+        "alt": "Stacy"
     },
     "Alex": {
         "top": "70px",
-        "left": "70px",
-        "img": "images/Ellipse (4).png"
+        "left": "70%",
+        "img": "images/Ellipse (4).png",
+        "alt": "Alex"
     }
 }
